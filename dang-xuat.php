@@ -3,6 +3,6 @@ require_once __DIR__ . '/inc/khoi-tao.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     dang_xuat();
-    dat_thong_bao('ok', 'Bạn đã đăng xuất. Hẹn gặp lại!');
+    dat_thong_bao('ok', 'Bạn đã đăng xuất khỏi trang quản trị.');
 }
-chuyen_trang('index.php');
+chuyen_trang('dang-nhap.php');
